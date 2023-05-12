@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="calltoOtherUser">
+      call to other : <input type="text" id="otheruserphone" /> <br />for your
+      phone:
+      <input type="text" id="localuser" />
+      <button id="setlocalphone">local phone set</button>
+      <h2 id="localnumber"></h2>
+      <button id="calling">calling</button>
+    </div>
+    <video width="800" autoplay playsinline id="user-1"></video>
+    <hr />
+    <video width="800" autoplay playsinline id="user-2"></video>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
